@@ -1,4 +1,4 @@
-
+//SCROLL BADGE
 const badgeEl = document.querySelector('#badge');
 window.addEventListener('scroll', _.throttle(function () { 
   //브라우저 창을 의미 보고있는 화면자체
