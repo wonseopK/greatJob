@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+  <!-- lodash 사용을 위한 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- throttle사용을 위한 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+    integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script defer src="./js/login.js"></script>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/login.css">
   <title>GREAT JOB</title>
 </head>
+
 <body>
   <section class="login">
     <div class="inner">
@@ -17,12 +29,12 @@
         <a href="./index.html">GREAT JOB</a>
       </div>
       <div class="formContainer">
-        <form action="javascript:void(0)">
+        <form action="javascript:void(0)" id="actionLogin">
           <div class="inputContainer">
             <input type="text" id="userId" placeholder="아이디"><br>
             <input type="password" id="userPw" placeholder="비밀번호"><br>
             <span id="result"></span>
-            <button type="submit" id="loginBtn" >로그인</button>
+            <button type="submit" id="loginBtn">로그인</button>
 
           </div>
         </form>
@@ -38,13 +50,17 @@
           <a href="">회원가입</a>
         </li>
       </ul>
+      <div id="imgs">
+        <div class="fade-In">
+          <img src="./images/rabit.png" alt="doll">
+        </div>
+      </div>
     </div>
   </section>
- 
-
   <footer>
 
   </footer>
-  
+
 </body>
+
 </html>
