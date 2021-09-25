@@ -1,4 +1,9 @@
 /* HEADER */
+#login{
+  position: absolute;
+  top: 17px;
+  right: 90px;
+}
 header .inner .main-menu{
   display: flex;
   justify-content: center;

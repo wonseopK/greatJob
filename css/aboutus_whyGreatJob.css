@@ -1,0 +1,133 @@
+
+/* COMMON */
+body {
+  line-height: 1.4em;
+  font-size: 16px;
+  
+}
+.sectionBorder{
+  border: 2px solid black;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+/* HEADER */
+header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 9;
+}
+header >.inner {
+  height: 120px;
+}
+header .inner .title{
+  position: absolute;
+  width: 300px;
+  top: 80px;
+  left: 50%;
+  margin-left: -150px;
+  
+}
+header .inner a {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+}
+header .inner a:hover{
+  color: pink;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* MEDAL */
+.joinLink >.inner{
+  height: 0px;
+  position: relative;
+}
+.medal{
+  width: 200px;
+  height: 200px;  
+  perspective: 600px;
+}
+.medal img{
+  width: 200px;
+  height: 200px; 
+}
+.medal .front,
+.medal .back{
+  top: 230px;
+  right: 50%;
+  margin-right: -550px;
+  width: 200px;
+  height: 200px;  
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 1s;
+}
+.medal .front{
+  transform: rotateY(0deg);
+}
+.medal:hover .front{
+  transform: rotateY(180deg);
+}
+.medal .back{
+  transform: rotateY(-180deg);
+}
+.medal:hover .back{
+  transform: rotateY(0deg);
+}
+
+/* ABOUT GREAT JOB */
+.aboutGJ>.inner {
+  position: relative;
+}
+.inner .about1{
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: 50%;
+  margin-left: -150px;
+
+  text-align: center;
+}
+.inner .about1 h1 a{
+ color: darkgreen;
+}
+.inner .about1 h1 a:hover{
+ color: pink;
+
+}
+
+
+/* WHYGREATJOB */
+.reason .inner {
+  top: 100px;
+}
+.reason .inner .container{
+  position: absolute;
+  top: -50px;
+  width: 500px;
+  height: 600px;
+  right: 300px;
+  border:2px solid #333 ;
+  border-radius: 10px;
+  padding-top: 10px;
+  
+}
+.reason .inner .container{
+  color: #333;
+  font-size: 14px;
+}
+.reason .inner .container p{
+  padding:0 10px ;
+}

@@ -35,7 +35,7 @@ header .logo {
   height: 75px;
   position: absolute;
   top: 10px;
-  left: 0px;
+  right: 50px;
   margin: auto;
   border-radius: 10px;
   height: 36px;
