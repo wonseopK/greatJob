@@ -30,7 +30,14 @@ a {
   height: 34px;
   padding: 17px 19px;
   border-radius: 10px;
-  
+  margin-bottom: 10px;
+}
+#userPw{
+  margin-top: 10px;
+}
+.login .inner .formContainer .confirmInput{
+  width: 464px;
+  height: 34px;
 }
 .login .inner .container{
   top: 410px;
@@ -57,10 +64,10 @@ a {
   position: absolute;
   text-align: center;
 }
-form, input, #loginBtn, #result{
+form{
   font-size: 16px;
 }
-#loginBtn{
+#loginBtn, #joinBtn, #confirmEmailBtn{
   width: 506px;
   padding: 17px;
   cursor: pointer;

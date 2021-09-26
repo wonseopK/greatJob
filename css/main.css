@@ -1,9 +1,4 @@
 /* HEADER */
-#login{
-  position: absolute;
-  top: 17px;
-  right: 90px;
-}
 header .inner .main-menu{
   display: flex;
   justify-content: center;
@@ -21,19 +16,48 @@ header .inner .main-menu li a:hover{
 
 #badge {
   position: fixed;
-  top: 132px;
+  top: 150px;
   right: 12px;
 }
 #badge img {
-  width: 150px;
+  width: 200px;
   height: 200px;
+}
+header {
+  width: 100%;
+  background-color: #F6F5F0;
+  border-bottom: 1px solid #c8c8c8;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+header >.inner {
+  height: 120px;
+}
+header .logo {
+  height: 70px;
+  position: absolute;
+  top: -10px;
+  right: 50px;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+#login{
+  position: absolute;
+  top: 17px;
+  right: 120px;
+}
+header .inner h1 {
+  padding-top: 10px;
+  text-align: center;
 }
 
 
 /* VISUAL */
 .visual {
   margin-top: 120px;
-  background-image: url("../images/visual-donation.jpg");
+  background-image: url("../images/join.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }

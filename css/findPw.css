@@ -1,0 +1,17 @@
+#requestNewPwBtn{
+  width: 506px;
+  padding: 17px;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+  border-radius: 10px;
+  background-color: salmon;
+}
+.login >.inner .formContainer{
+  height: 400px;
+}
+
+#result{
+  color: red;
+}

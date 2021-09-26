@@ -1,0 +1,17 @@
+
+#requestIdBtn{
+  width: 506px;
+  padding: 17px;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 220px;
+  border-radius: 10px;
+  background-color: salmon;
+}
+.login >.inner .formContainer{
+  height: 330px;
+}
+#result{
+  color: red;
+}

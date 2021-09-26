@@ -1,0 +1,41 @@
+a {
+  color: #333;
+}
+.apply{
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+.apply >.inner {
+  top: 120px;
+}
+.apply >.inner .formContainer{
+  top: 100px;
+  left: 270px;
+  height: 310px;
+  width: 560px;
+  background-color: F6F5F0;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: absolute;
+}
+.apply .inner .formContainer .inputContainer{
+  top: 27px;
+  width: 520px;
+  left: 27px;
+  position: absolute;
+}
+.apply .inner .title{
+  font-size: 60px;
+  width: 400px;
+  top: 20px;
+  left: 350px;
+  position: absolute;
+  text-align: center;
+}
+
+
+/* IMAGES */
+body{
+  background-image: url('/images/heart.jpg');
+}

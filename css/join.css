@@ -1,0 +1,25 @@
+/* IMAGES */
+body{
+  background-image: url('/images/joinBg.jpg');
+  background-size: 3000px 3000px;
+}
+
+#joinBtn{
+  top: 690px;
+}
+#confirmEmailBtn{
+  top: 510px;
+}
+.login >.inner .formContainer{
+  top: 100px;
+  left: 270px;
+  height: 800px;
+  width: 560px;
+  background-color: F6F5F0;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: absolute;
+}
+.login .inner .formContainer input{
+  margin-bottom: 0px;
+}

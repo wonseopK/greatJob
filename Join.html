@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/join.css">
+  <title>로그인</title>
+</head>
+
+<body>
+  <section class="login">
+    <div class="inner">
+      <div class="title">
+        <a href="./index.html">GREAT JOB</a>
+      </div>
+      <div class="formContainer">
+        <form action="javascript:void(0)" id="actionLogin">
+          <div class="inputContainer">
+            <input type="text" id="userId" placeholder="아이디"><br>
+            <div class="confirmInput"></div>
+            <input type="password" id="userPw" placeholder="비밀번호"><br>
+            <div class="confirmInput"></div>
+            <input type="password" id="userPwCheck" placeholder="비밀번호확인"><br>
+            <div class="confirmInput"></div>
+            <input type="text" placeholder="닉네임"><br>
+            <div class="confirmInput"></div>
+            <input type="email" placeholder="이메일"><br>
+            <div class="confirmInput"></div>
+            <button type="submit" id="confirmEmailBtn">이메일 인증</button>
+            <div class="confirmInput"></div>
+            <div class="confirmInput"></div>
+            <input type="text" placeholder="이메일 인증번호 입력 후 회원가입 버튼을 눌러주세요">
+            <button type="submit" id="joinBtn">회원가입</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
